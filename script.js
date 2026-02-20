@@ -19,14 +19,14 @@ const FACE_URLS = [
 
 // Beta people list (we’ll replace with your real 20k profiles later)
 const PEOPLE = [
-  { name: "Carson", age: 28, salary: 42000, occupation: "Retail Associate", state: "California", faceIndex: 0, stateClues: ["West Coast", "Pacific", "High cost of living"] },
+  { name: "John", age: 28, salary: 42000, occupation: "Retail Associate", state: "California", faceIndex: 0, stateClues: ["West Coast", "Pacific", "High cost of living"] },
   { name: "Michael", age: 46, salary: 98000, occupation: "Accountant", state: "Texas", faceIndex: 5, stateClues: ["South", "Big state", "No state income tax"] },
   { name: "Ashley", age: 33, salary: 74000, occupation: "Nurse", state: "Florida", faceIndex: 6, stateClues: ["Southeast", "Warm climate", "Lots of coastline"] },
   { name: "David", age: 52, salary: 121000, occupation: "Software Engineer", state: "Washington", faceIndex: 1, stateClues: ["Pacific Northwest", "Rainy", "Tech-heavy"] },
   { name: "Samantha", age: 24, salary: 61000, occupation: "Teacher", state: "Ohio", faceIndex: 7, stateClues: ["Midwest", "Great Lakes region", "Four seasons"] }
 ];
 
-const ROUND_ORDER = ["age", "salary", "name", "occupation", "state"];
+const ROUND_ORDER = ["age", "name", "salary", "occupation", "state"];
 
 let score = 0;
 let person = null;
